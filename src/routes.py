@@ -3,6 +3,21 @@ import os
 from werkzeug.utils import secure_filename
 from inference import detect_objects
 
+# Define the correct path to the models
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Go one level up
+MODEL_DIR = os.path.join(BASE_DIR, "models")  # Locate models folder
+
+pothole_model_path = os.path.join(MODEL_DIR, "pothole_best.pt")
+traffic_violation_model_path = os.path.join(MODEL_DIR, "traffic_best.pt")
+
+# Ensure models exist
+if not os.path.exists(pothole_model_path):
+    print(f"Error: Pothole model not found at {pothole_model_path}")
+
+if not os.path.exists(traffic_violation_model_path):
+    print(f"Error: Traffic violation model not found at {traffic_violation_model_path}")
+
+
 app = Flask(__name__)
 
 # Create an uploads folder if it doesn't exist
@@ -151,4 +166,4 @@ def home():
     return jsonify({"message": "AI Traffic Violation & Pothole Detection API is running!"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=False)

@@ -1,11 +1,14 @@
 from ultralytics import YOLO
 import os
 
+# Define absolute model path
+MODEL_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models"))
+
 # Load YOLO Models
 def load_models():
     model_paths = {
-        "pothole": os.path.join("models", "pothole_best.pt"),
-        "traffic_violation": os.path.join("models", "traffic_best.pt")
+        "pothole": os.path.join(MODEL_DIR, "pothole_best.pt"),
+        "traffic_violation": os.path.join(MODEL_DIR, "traffic_best.pt")
     }
 
     models = {}
