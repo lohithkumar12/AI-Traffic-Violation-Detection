@@ -1,4 +1,4 @@
-# Ignore model files (large)
+# Ignore large model files
 models/*.pt
 models/*.pth
 
