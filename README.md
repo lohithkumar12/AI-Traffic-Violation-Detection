@@ -89,7 +89,6 @@ streamlit run src/dashboard.py
 ---
 
 ## **📦 Project Structure**  
-```
 AI-Traffic-Violation-Detection/
 │── models/                 # YOLOv8 trained models
 │── src/
@@ -105,5 +104,4 @@ AI-Traffic-Violation-Detection/
 
 🎯 **Star the repository if you like this project!**
 📢 **Have suggestions? Feel free to open an issue!**  
-```
 
