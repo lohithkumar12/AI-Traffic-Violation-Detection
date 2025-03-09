@@ -6,3 +6,8 @@ torch
 pandas
 numpy
 matplotlib
+streamlit
+numpy
+folium
+streamlit-folium
+plotly

@@ -81,7 +81,7 @@ def process_video(input_video_path, output_video_path, model):
     Processes a video frame by frame with YOLOv8.
     """
     cap = cv2.VideoCapture(input_video_path)
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    fourcc = cv2.VideoWriter_fourcc(*"H264")
     fps = int(cap.get(cv2.CAP_PROP_FPS))
     width, height = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
