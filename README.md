@@ -1,9 +1,3 @@
-### **📌 README.md File for Your GitHub Project**
-Here's a **well-structured `README.md` file** that you can directly use for your project.
-
-📂 **Create a `README.md` file in your project root and add the following content:**
-
-```markdown
 # 🚦 AI-Powered Traffic Violation & Pothole Detection System  
 
 ## 🔥 Project Overview  
@@ -107,17 +101,9 @@ AI-Traffic-Violation-Detection/
 │── requirements.txt        # Required dependencies
 │── README.md               # Project documentation
 │── .gitignore              # Ignore unnecessary files
-```
 
----
 
-## **🚀 Future Improvements**
-✅ **Deploy on a cloud platform (AWS, Render, or Hugging Face Spaces)**  
-✅ **Optimize detection speed for real-time use**  
-✅ **Enhance detection accuracy with additional training**   
-
----
-🎯 **Star the repository if you like this project!** ⭐  
+🎯 **Star the repository if you like this project!**
 📢 **Have suggestions? Feel free to open an issue!**  
 ```
 
