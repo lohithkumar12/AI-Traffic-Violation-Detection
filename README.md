@@ -203,6 +203,10 @@ AI-Traffic-Violation-Detection/
 - **Integrate with city traffic systems**  
 
 ---
+## Demo Video
+
+**[Click here to watch the demo]https://drive.google.com/file/d/12aouwBh70zLMTTOVkT5f_VQj7GfxI9Mz/view?usp=drive_link**
+
 
 **Star the repository if you like this project!**  
 **Have suggestions? Feel free to open an issue!**  
